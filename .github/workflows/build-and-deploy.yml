@@ -60,6 +60,11 @@ jobs:
       - name: Link TAN Files
         run: bash bin/link_tan_files.sh
 
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.147.0'  # or the version you want
+
       - name: Build Hugo Site
         run: |
           cd sources
