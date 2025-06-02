@@ -1,0 +1,6 @@
+{{ $params := dict
+    "date" ( .Get "date" )
+    "link" ( .Get "link" )
+    "content" .Inner
+}}
+{{ partial "news.html" $params }}

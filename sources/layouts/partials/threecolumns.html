@@ -1,0 +1,17 @@
+<div class="row">
+    {{ range .items }}
+      <div class="col-12 col-md-4 text-center mb-4">
+        <div class="h-100 d-flex flex-column align-items-center">
+          <img src="{{ .image }}" class="img-fluid rounded-circle mb-3" style="max-width: 150px;" alt="">
+          <div class="d-flex flex-column mt-3">
+            <h2 class="cmb-2">{{ .title }}</h2>
+            <p class="cmb-3">{{ .description }}</p>
+            <div class="mt-auto">
+              {{ .button | safeHTML }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+  

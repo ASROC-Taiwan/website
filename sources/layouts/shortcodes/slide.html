@@ -1,0 +1,11 @@
+{{ $src := .Get "src" }}
+{{ $caption := .Get "caption" }}
+
+<!-- slide -->
+<div class="slide">
+  <img src="{{ $src | relURL }}" alt="{{ $caption }}" class="w-full h-auto rounded-lg">
+  {{ if $caption }}
+    <div class="caption">{{ $caption }}</div>
+  {{ end }}
+</div>
+<!-- /slide -->

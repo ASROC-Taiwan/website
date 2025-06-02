@@ -1,0 +1,4 @@
+{{- .Inner -}} <!-- Evaluate nested columnitems -->
+{{- $items := .Page.Scratch.Get "columns" | default (slice) -}}
+{{ partial "threecolumns.html" (dict "items" $items) }}
+{{- .Page.Scratch.Delete "columns" -}} <!-- Clean up after rendering -->

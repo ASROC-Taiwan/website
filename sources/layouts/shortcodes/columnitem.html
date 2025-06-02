@@ -1,0 +1,7 @@
+{{- $item := dict
+    "image" (.Get "image")
+    "title" (.Get "title")
+    "description" (.Get "description")
+    "button" (.Inner)
+  -}}
+  {{- .Page.Scratch.Add "columns" (slice $item) -}}
