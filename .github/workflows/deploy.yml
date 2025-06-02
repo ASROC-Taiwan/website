@@ -1,0 +1,37 @@
+name: Deploy
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write  # allow pushing commits
+  actions: read    # allow reading workflows, logs, etc.
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Website Repo
+        uses: actions/checkout@v3
+
+      - name: Link TAN Files
+        run: bash bin/link_tan_files.sh
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.147.0'  # or the version you want
+
+      - name: Build Hugo Site
+        run: |
+          cd sources
+          hugo --source . --destination ./public --baseURL "https://asroc-taiwan.github.io/website/"
+
+      - name: Deploy to gh-pages Branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./sources/public
+          publish_branch: gh-pages
+
