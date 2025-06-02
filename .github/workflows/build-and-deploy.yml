@@ -24,10 +24,11 @@ jobs:
       - name: Clone tan-bot Repo
         uses: GuillaumeFalourd/clone-github-repo-action@v2.3
         with:
-          owner: 'ASRCO-Taiwan'
+          owner: 'ASROC-Taiwan'
           repository: 'tan-bot'
           access-token: ${{ secrets.ACCESS_TOKEN }}
 
+      - name: Install tan-bot
         run: |
           #git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/ASROC-Taiwan/tan-bot.git
           cd tan-bot
