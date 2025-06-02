@@ -19,7 +19,7 @@ jobs:
 
       - name: Clone tan-bot Repo
         run: |
-          git clone https://github.com/ASROC-Taiwan/tan-bot.git
+          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/ASROC-Taiwan/tan-bot.git
           cd tan-bot
           pip install --upgrade pip
           pip install -r requirements.txt
