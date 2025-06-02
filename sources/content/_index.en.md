@@ -42,11 +42,11 @@ The 2025 Scientific Assembly of the Astronomical Society of the Republic of Chin
 This is an annual event for all astronomers and astrophysicists in Taiwan to present their most recent discoveries and observations, to report their latest research results, to exchange ideas, and to organize collaborations. Oral presentations and conference posters in all areas of astronomy and astrophysics are solicited. It is also an excellent venue for students, in particular graduate students, to present their research findings or progress from their thesis studies.
 
 {{< wideimage >}}
-{{< wideimg src="/img/hp_asroc2023.jpg" caption="ASROC 2023" >}}
-{{< wideimg src="/img/hp_asroc2022.jpg" caption="ASROC 2022" >}}
-{{< wideimg src="/img/hp_asroc2020.jpg" caption="ASROC 2020" >}}
-{{< wideimg src="/img/hp_asroc2019.jpg" caption="ASROC 2019" >}}
-{{< wideimg src="/img/hp_asroc2018.jpg" caption="ASROC 2018" >}}
+{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2023.jpg" caption="ASROC 2023" >}}
+{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2022.jpg" caption="ASROC 2022" >}}
+{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2020.jpg" caption="ASROC 2020" >}}
+{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2019.jpg" caption="ASROC 2019" >}}
+{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2018.jpg" caption="ASROC 2018" >}}
 {{< /wideimage >}}
 
 
@@ -80,9 +80,9 @@ This is an annual event for all astronomers and astrophysicists in Taiwan to pre
 <table class="table-auto text-center">
   <thead>
     <tr>
-      <th style="width: 33.33%;"><img src="/img/award_HeavenQuest.png" alt="image" class="w-14 h-14 object-contain rounded-full"></th>
-      <th style="width: 33.33%;"><img src="/img/award_HeavenTalk.png" alt="image" class="w-14 h-14 object-contain rounded-full"></th>
-      <th style="width: 33.33%;"><img src="/img/award_BestPoster.png" alt="image" class="w-14 h-14 object-contain rounded-full"></th>
+      <th style="width: 33.33%;"><img src="https://asroc-taiwan.github.io/website/img/award_HeavenQuest.png" alt="image" class="w-14 h-14 object-contain rounded-full"></th>
+      <th style="width: 33.33%;"><img src="https://asroc-taiwan.github.io/website/img/award_HeavenTalk.png" alt="image" class="w-14 h-14 object-contain rounded-full"></th>
+      <th style="width: 33.33%;"><img src="https://asroc-taiwan.github.io/website/img/award_BestPoster.png" alt="image" class="w-14 h-14 object-contain rounded-full"></th>
     </tr>
   </thead>
   <tbody>

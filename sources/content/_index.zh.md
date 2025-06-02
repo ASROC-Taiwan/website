@@ -42,11 +42,11 @@ The Astronomy Society of the Republic of China (Taiwan)
 天文年會是國內天文工作者一年一度發表研究的新發現和工作成果的聚會，也是適合交換研究心得或洽商研究合作的場合。歡迎所有與天文和天文物理研究、天文教育（國小、國中、高中及大專院校）、以及天文推廣工作（如社團、社區大學、天文館、科博館等）相關領域的口頭成果報告或壁報論文。
 
 {{< wideimage >}}
-{{< wideimg src="/img/hp_asroc2023.jpg" caption="2023年天文年會" >}}
-{{< wideimg src="/img/hp_asroc2022.jpg" caption="2022年天文年會" >}}
-{{< wideimg src="/img/hp_asroc2020.jpg" caption="2020年天文年會" >}}
-{{< wideimg src="/img/hp_asroc2019.jpg" caption="2019年天文年會" >}}
-{{< wideimg src="/img/hp_asroc2018.jpg" caption="2018年天文年會" >}}
+{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2023.jpg" caption="2023年天文年會" >}}
+{{< wideimg src="https://asroc-taiwan.github.io/website//img/hp_asroc2022.jpg" caption="2022年天文年會" >}}
+{{< wideimg src="https://asroc-taiwan.github.io/website//img/hp_asroc2020.jpg" caption="2020年天文年會" >}}
+{{< wideimg src="https://asroc-taiwan.github.io/website//img/hp_asroc2019.jpg" caption="2019年天文年會" >}}
+{{< wideimg src="https://asroc-taiwan.github.io/website//img/hp_asroc2018.jpg" caption="2018年天文年會" >}}
 {{< /wideimage >}}
 
 
@@ -80,9 +80,9 @@ The Astronomy Society of the Republic of China (Taiwan)
 <table class="table-auto text-center">
   <thead>
     <tr>
-      <th style="width: 33.33%;"><img src="img/award_HeavenQuest.png" alt="image" class="w-14 h-14 object-cover rounded-full"></th>
-      <th style="width: 33.33%;"><img src="img/award_HeavenTalk.png" alt="image" class="w-14 h-14 object-cover rounded-full"></th>
-      <th style="width: 33.33%;"><img src="img/award_BestPoster.png" alt="image" class="w-14 h-14 object-cover rounded-full"></th>
+      <th style="width: 33.33%;"><img src="https://asroc-taiwan.github.io/website/img/award_HeavenQuest.png" alt="image" class="w-14 h-14 object-cover rounded-full"></th>
+      <th style="width: 33.33%;"><img src="https://asroc-taiwan.github.io/website/img/award_HeavenTalk.png" alt="image" class="w-14 h-14 object-cover rounded-full"></th>
+      <th style="width: 33.33%;"><img src="https://asroc-taiwan.github.io/website/img/award_BestPoster.png" alt="image" class="w-14 h-14 object-cover rounded-full"></th>
     </tr>
   </thead>
   <tbody>
