@@ -1,0 +1,66 @@
+name: Build and Deploy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * *'  # daily at 3 AM UTC
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      SHEET_ID: ${{ secrets.SHEET_ID }}
+      WORKSHEET_GID: ${{ secrets.WORKSHEET_GID }}
+    outputs:
+      has_new_posts: ${{ steps.check_new_posts.outputs.has_new_posts }}
+    steps:
+      - name: Checkout Website Repo
+        uses: actions/checkout@v3
+
+      - name: Clone tan-bot Repo
+        run: |
+          git clone https://github.com/ASROC-Taiwan/tan-bot.git
+          cd tan-bot
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install .
+
+      - name: Generate TAN Posts
+        id: check_new_posts
+        run: |
+          python bin/build_tan_post.py
+          echo "has_new_posts=$?" >> $GITHUB_OUTPUT
+
+      - name: Commit and Push New Posts
+        if: steps.check_new_posts.outputs.has_new_posts == '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --cached --exit-code || git commit -m "Auto-update TAN posts $(date +'%Y-%m-%d %H:%M:%S')"
+          git push origin main
+
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.has_new_posts == '0'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Website Repo
+        uses: actions/checkout@v3
+
+      - name: Link TAN Files
+        run: bash bin/link_tan_files.sh
+
+      - name: Build Hugo Site
+        run: |
+          cd sources
+          hugo --source . --destination ./public --baseURL "https://asroc-taiwan.github.io/website/"
+
+      - name: Deploy to gh-pages Branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./sources/public
+          publish_branch: gh-pages
+

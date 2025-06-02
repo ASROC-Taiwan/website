@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Define the directory
-target_dir="./sources/content/tan/tan-bot"
+target_dir="sources/content/tan/tan-bot"
 
 # Move to that directory
 cd "$target_dir" || exit 1

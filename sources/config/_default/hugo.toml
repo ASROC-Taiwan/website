@@ -3,7 +3,7 @@
 # https://jpanther.github.io/congo/docs/getting-started/
 theme = "congo-2.11.0"
 
-baseURL = "asroc-taiwan.github.io"
+baseURL = "asroc-taiwan.github.io/website/"
 defaultContentLanguage = "zh"
 
 enableRobotsTXT = true
