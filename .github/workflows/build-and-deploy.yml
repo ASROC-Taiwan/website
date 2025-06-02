@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: '0 3 * * *'  # daily at 3 AM UTC
 
+permissions:
+  contents: write  # allow pushing commits
+  actions: read    # allow reading workflows, logs, etc.
+
 jobs:
   build:
     runs-on: ubuntu-latest
