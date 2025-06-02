@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>https://asroc-taiwan.github.io/website/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo</generator>
+    <language>zh-Hant</language>
+    <copyright>  30013 新竹市光復路二段101號 國立清華大學 綜二館B棟五樓 清華大學天文所&lt;br&gt;
+  代轉╱中華民國天文學會收&lt;br&gt;
+  電子信箱: secretariat{{&lt; icon &#34;email&#34; &gt;}}asroc.org.tw&lt;br&gt;
+  </copyright>
+    <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://asroc-taiwan.github.io/website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>History</title>
+      <link>https://asroc-taiwan.github.io/website/tags/history/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://asroc-taiwan.github.io/website/tags/history/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tan</title>
+      <link>https://asroc-taiwan.github.io/website/tags/tan/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://asroc-taiwan.github.io/website/tags/tan/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

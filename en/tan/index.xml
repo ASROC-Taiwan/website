@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Taiwan Astronomy Network on </title>
+    <link>https://asroc-taiwan.github.io/website/en/tan/</link>
+    <description>Recent content in Taiwan Astronomy Network on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>  The Astronomical Society of the Republic of China (Taiwan)&lt;br&gt;
+  General Building II, NTHU&lt;br&gt;
+  No. 101, Section 2, Kuang-Fu Road, Hsinchu 30013, Taiwan&lt;br&gt;
+  Email: secretariat{{&lt; icon &#34;email&#34; &gt;}}asroc.org.tw&lt;br&gt;
+  </copyright>
+    <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://asroc-taiwan.github.io/website/en/tan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A brief history of TAN</title>
+      <link>https://asroc-taiwan.github.io/website/en/tan/history/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://asroc-taiwan.github.io/website/en/tan/history/</guid>
+      <description>台灣天文網歷史的簡介</description>
+    </item>
+    <item>
+      <title>[TAN] Update of the new TAN mailing list</title>
+      <link>https://asroc-taiwan.github.io/website/en/tan/tan-bot/2025_05_29_17_33_50-1971b6484927c68b/</link>
+      <pubDate>Thu, 29 May 2025 17:33:50 +0000</pubDate>
+      <guid>https://asroc-taiwan.github.io/website/en/tan/tan-bot/2025_05_29_17_33_50-1971b6484927c68b/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NTHU IoA Colloquium: 5/23 (Fri) by Nagayoshi Ohashi (ASIAA)</title>
+      <link>https://asroc-taiwan.github.io/website/en/tan/tan-bot/2025_05_29_11_19_35-1971a0d8d397f9b5/</link>
+      <pubDate>Thu, 29 May 2025 11:19:35 +0000</pubDate>
+      <guid>https://asroc-taiwan.github.io/website/en/tan/tan-bot/2025_05_29_11_19_35-1971a0d8d397f9b5/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

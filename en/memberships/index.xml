@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memberships on </title>
+    <link>https://asroc-taiwan.github.io/website/en/memberships/</link>
+    <description>Recent content in Memberships on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>  The Astronomical Society of the Republic of China (Taiwan)&lt;br&gt;
+  General Building II, NTHU&lt;br&gt;
+  No. 101, Section 2, Kuang-Fu Road, Hsinchu 30013, Taiwan&lt;br&gt;
+  Email: secretariat{{&lt; icon &#34;email&#34; &gt;}}asroc.org.tw&lt;br&gt;
+  </copyright>
+    <atom:link href="https://asroc-taiwan.github.io/website/en/memberships/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
