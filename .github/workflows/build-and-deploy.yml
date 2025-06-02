@@ -53,6 +53,10 @@ jobs:
       - name: Checkout Website Repo
         uses: actions/checkout@v3
 
+      - name: Pull Latest Commits
+        run: |
+          git pull origin main
+
       - name: Link TAN Files
         run: bash bin/link_tan_files.sh
 
