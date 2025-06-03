@@ -38,7 +38,7 @@ jobs:
           rm -f .new_posts
           rm -f .new_img_posts
           python bin/build_tan_post.py
-          python bin/build_ig_post.py
+          #python bin/build_ig_post.py
 
           if [ -f .new_img_posts ]; then
             echo "has_new_ig_posts=true" >> $GITHUB_OUTPUT
