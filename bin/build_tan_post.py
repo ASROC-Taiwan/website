@@ -1,6 +1,7 @@
 import sys
 from dotenv import load_dotenv
 from tanbot import TANBot
+from pathlib import Path
 
 load_dotenv()
 
@@ -10,7 +11,8 @@ has_updated = bot.hugo.generate_posts()
 
 if has_updated:
     print("New posts generated!")
+    Path(".new_posts").touch()
     sys.exit(0)  # 0 means new posts
 else:
     print("No new posts.")
-    sys.exit(1)  # 1 means no new posts
+    sys.exit(0)  # still 0 to let github action passed by a green light
