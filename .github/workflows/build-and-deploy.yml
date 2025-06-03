@@ -17,6 +17,7 @@ jobs:
       WORKSHEET_GID: ${{ secrets.WORKSHEET_GID }}
     outputs:
       has_new_posts: ${{ steps.check_new_posts.outputs.has_new_posts }}
+      has_new_ig_posts: ${{ steps.check_new_posts.outputs.has_new_ig_posts }}
     steps:
       - name: Checkout Website Repo
         uses: actions/checkout@v3
@@ -33,15 +34,24 @@ jobs:
         id: check_new_posts
         run: |
           rm -f .new_posts
+          rm -f .new_img_posts
           python bin/build_tan_post.py
+          python bin/build_ig_post.py
+
+          if [ -f .new_img_posts ]; then
+            echo "has_new_ig_posts=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_new_ig_posts=false" >> $GITHUB_OUTPUT
+          fi
+
           if [ -f .new_posts ]; then
             echo "has_new_posts=true" >> $GITHUB_OUTPUT
           else
             echo "has_new_posts=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Commit and Push New Posts
-        if: steps.check_new_posts.outputs.has_new_posts == 'true'
+      - name: Commit and Push New Posts/Image Posts
+        if: steps.check_new_posts.outputs.has_new_posts == 'true' || steps.check_new_posts.outputs.has_new_ig_posts == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
