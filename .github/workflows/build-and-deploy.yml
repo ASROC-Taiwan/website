@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * *'  # daily at 3 AM UTC
+    - cron: '0 19 * * *'  # daily at 7 PM UTC = 3AM Taiwan time
 
 permissions:
   contents: write  # allow pushing commits
@@ -32,11 +32,16 @@ jobs:
       - name: Generate TAN Posts
         id: check_new_posts
         run: |
+          rm -f .new_posts
           python bin/build_tan_post.py
-          echo "has_new_posts=$?" >> $GITHUB_OUTPUT
+          if [ -f .new_posts ]; then
+            echo "has_new_posts=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_new_posts=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit and Push New Posts
-        if: steps.check_new_posts.outputs.has_new_posts == '0'
+        if: steps.check_new_posts.outputs.has_new_posts == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -47,7 +52,7 @@ jobs:
 
   deploy:
     needs: build
-    if: needs.build.outputs.has_new_posts == '0'
+    if: needs.build.outputs.has_new_posts == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Website Repo
