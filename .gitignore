@@ -1,4 +1,5 @@
 .env
 .new_posts
+.new_img_posts
 sources/public
 **/.DS_Store
