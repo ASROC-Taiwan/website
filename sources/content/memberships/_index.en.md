@@ -35,7 +35,7 @@ Please download the proper form for your own needs.
 Application Form (Individuals)
 {{< /button >}}
 
-{{< button download="https://asroc-taiwan.github.io/website/files/members/app_person_en.pdf">}}
+{{< button download="https://asroc-taiwan.github.io/website/files/members/app_group_en.pdf">}}
 Application Form (Groups)
 {{< /button >}}
 
