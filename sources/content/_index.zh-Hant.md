@@ -43,10 +43,10 @@ The Astronomy Society of the Republic of China (Taiwan)
 
 {{< wideimage >}}
 {{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2023.jpg" caption="2023年天文年會" >}}
-{{< wideimg src="https://asroc-taiwan.github.io/website//img/hp_asroc2022.jpg" caption="2022年天文年會" >}}
-{{< wideimg src="https://asroc-taiwan.github.io/website//img/hp_asroc2020.jpg" caption="2020年天文年會" >}}
-{{< wideimg src="https://asroc-taiwan.github.io/website//img/hp_asroc2019.jpg" caption="2019年天文年會" >}}
-{{< wideimg src="https://asroc-taiwan.github.io/website//img/hp_asroc2018.jpg" caption="2018年天文年會" >}}
+{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2022.jpg" caption="2022年天文年會" >}}
+{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2020.jpg" caption="2020年天文年會" >}}
+{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2019.jpg" caption="2019年天文年會" >}}
+{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2018.jpg" caption="2018年天文年會" >}}
 {{< /wideimage >}}
 
 

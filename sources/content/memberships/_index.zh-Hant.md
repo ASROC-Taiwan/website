@@ -34,11 +34,11 @@ cascade:
 
 申請書分成個人及團體共二式，分列如下，請依您的需要擷取。
 
-{{< button download="files/xxx.doc">}}
+{{< button download="https://asroc-taiwan.github.io/website/files/members/app_person.pdf">}}
 個人入會申請表
 {{< /button >}}
 
-{{< button download="files/xxx.doc">}}
+{{< button download="https://asroc-taiwan.github.io/website/files/members/app_group.pdf">}}
 團體入會申請表
 {{< /button >}}
 

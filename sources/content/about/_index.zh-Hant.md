@@ -34,10 +34,10 @@ cascade:
 
 ### 相關文件
 
-- [內政部立案證書](link-to-file.pdf)
-- [更名後之內政部立案證書](link-to-renamed-file.pdf)
-- [國際天文聯合會 (IAU) 會籍資料](link-to-IAU-file.pdf)
-- [臺北市立天文館天文大事紀](link-to-taipei-astronomical-file.pdf)
+- [內政部立案證書](https://asroc-taiwan.github.io/website/files/certification.gif)
+- [更名後之內政部立案證書](https://asroc-taiwan.github.io/website/files/certification01.gif)
+- [國際天文聯合會 (IAU) 會籍資料](https://www.iau.org/Shared_Content/Contacts/OrganizationLayouts/Organization_Profile.aspx?ID=41894)
+- [臺北市立天文館天文大事紀](https://www-ws.gov.taipei/001/Upload/439/relfile/21708/3425221/992917212342.pdf)
 
 
 
