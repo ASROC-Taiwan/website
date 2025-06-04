@@ -4,7 +4,7 @@
 theme = "congo-2.11.0"
 
 baseURL = "asroc-taiwan.github.io/website/"
-defaultContentLanguage = "zh"
+defaultContentLanguage = "zh-Hant"
 
 enableRobotsTXT = true
 summaryLength = 0

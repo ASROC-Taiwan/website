@@ -6,9 +6,9 @@ target_dir="sources/content/tan/tan-bot"
 # Move to that directory
 cd "$target_dir" || exit 1
 
-# Loop through all .zh.md files
-for file in *.zh.md; do
-  base="${file%.zh.md}"
+# Loop through all .zh-Hant.md files
+for file in *.zh-Hant.md; do
+  base="${file%.zh-Hant.md}"
   if [ ! -e "${base}.en.md" ]; then
     #ln -s "$file" "${base}.en.md"
     cp "$file" "${base}.en.md"
