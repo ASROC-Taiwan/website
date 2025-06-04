@@ -17,6 +17,7 @@ jobs:
       WORKSHEET_GID: ${{ secrets.WORKSHEET_GID }}
       IG_USERNAME: ${{ secrets.IG_USERNAME }}
       IG_PASSWORD: ${{ secrets.IG_PASSWORD }}
+      LINE_TOKEN: ${{ secrets.LINE_TOKEN }}
     outputs:
       has_new_posts: ${{ steps.check_new_posts.outputs.has_new_posts }}
       has_new_ig_posts: ${{ steps.check_new_posts.outputs.has_new_ig_posts }}

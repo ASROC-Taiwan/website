@@ -11,6 +11,7 @@ has_updated = bot.hugo.generate_posts()
 
 if has_updated:
     print("New posts generated!")
+    bot.broadcast(line=True, instagram=False, facebook=False)
     Path(".new_posts").touch()
     sys.exit(0)  # 0 means new posts
 else:
