@@ -85,7 +85,7 @@ cascade:
 ## 臺北天文館學報編輯獎
 
 **說明**  
-自 2003 年起，本會與臺北市立天文科學教育館合作出版《臺北天文館學報》（Journal of Taipei Astronomical Museum）。  
+自 2003 年起，本會與臺北市立天文科學教育館合作出版[《臺北天文館學報》（Journal of Taipei Astronomical Museum）](https://gpi.culture.tw/books/2009205254)。  
 本會及天文館邀請專家擔任編審委員，並自 2006 年（Vol. 4）起，於翌年學會年會時頒發「臺北天文館期刊編輯獎」，以表揚優秀作品。
 
 | 年份（期數） | 受獎人  | 單位                       | 得獎論文題目 |

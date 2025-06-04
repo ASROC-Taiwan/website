@@ -85,7 +85,7 @@ Individuals with significant contributions to astronomy may be nominated by five
 ## Journal of Taipei Astronomical Museum Editorial Award
 
 **Statement**  
-Since 2003, ASROC has co-published the Journal of Taipei Astronomical Museum with the Taipei Astronomical Museum. Starting from 2006 (Vol. 4), the ASROC annual meeting has presented the Editorial Award to recognize outstanding contributions.
+Since 2003, ASROC has co-published the [Journal of Taipei Astronomical Museum](https://gpi.culture.tw/books/2009205254) with the Taipei Astronomical Museum. Starting from 2006 (Vol. 4), the ASROC annual meeting has presented the Editorial Award to recognize outstanding contributions.
 
 | Year (Volume) | Recipient  | Institution                       | Title of Awarded Paper |
 |---------------|------------|-----------------------------------|------------------------|
