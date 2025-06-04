@@ -31,11 +31,11 @@ For group-member applicants, please fill out the group application form.
 
 Please download the proper form for your own needs.
 
-{{< button download="https://asroc-taiwan.github.io/website/files/members/app_person_en.pdf">}}
+{{< button href="https://asroc-taiwan.github.io/website/files/members/app_person_en.pdf" download="app_person_en.pdf">}}
 Application Form (Individuals)
 {{< /button >}}
 
-{{< button download="https://asroc-taiwan.github.io/website/files/members/app_group_en.pdf">}}
+{{< button href="https://asroc-taiwan.github.io/website/files/members/app_group_en.pdf" download="app_group_en.pdf">}}
 Application Form (Groups)
 {{< /button >}}
 
