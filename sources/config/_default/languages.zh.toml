@@ -17,13 +17,14 @@ copyright = """
   # description = "My awesome website"
 
 [params.author]
-  # name = "Your name here"
-  # image = "img/author.jpg"
-  # headline = "I'm only human"
-  # bio = "A little bit about you"
-  # links = [
-  #   { email = "mailto:hello@your_domain.com" },
-  #   { link = "https://link-to-some-website.com/" },
+   name = "TAN"
+   image = "img/asroc_logo.png"
+   headline = "I'm only human"
+   bio = "Taiwan Astronomy Network"
+   links = [
+     { email = "mailto:secretariat[at]asroc.org.tw" },
+     { link = "https://groups.google.com/u/3/a/asroc.org.tw/g/tan" },
+     { line = "https://lin.ee/vEKXanUt "},
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
   #   { blogger = "https://username.blogspot.com/" },
@@ -68,4 +69,4 @@ copyright = """
   #   { x-twitter = "https://twitter.com/username" },
   #   { youtube = "https://youtube.com/username" },
   #   { xing = "https://xing.com/profile/username" },
-  # ]
+  ]
