@@ -33,8 +33,37 @@
 
 
 
-<!-- Inline CSS for Slideshow -->
+<!-- Inline CSS for Slideshow and Awards -->
 <style>
+  /* Awards Section Styles */
+  .asroc-awards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+
+  .asroc-award-item {
+    flex: 1 1 300px;
+    /* Grow, shrink, base width */
+    max-width: 350px;
+    /* Prevent them from getting too wide on large screens if there are few */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    /* Space between image/text/button */
+  }
+
+  /* Force width on desktop if we want exactly 3 columns and they fit */
+  @media (min-width: 769px) {
+    .asroc-award-item {
+      max-width: 30%;
+    }
+  }
+
+  /* Slideshow Styles */
   .asroc-slideshow-layout {
     display: flex;
     flex-wrap: wrap;
@@ -63,6 +92,12 @@
     .asroc-image-col {
       width: 100%;
       min-width: 0;
+    }
+
+    /* Awards stack on mobile */
+    .asroc-award-item {
+      max-width: 100%;
+      flex-basis: 100%;
     }
   }
 
