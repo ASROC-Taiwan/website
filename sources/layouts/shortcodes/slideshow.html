@@ -54,6 +54,23 @@
     align-items: center;
     gap: 1rem;
     /* Space between image/text/button */
+    height: 100%;
+    /* Ensure it fills the height of the row */
+  }
+
+  .asroc-award-item p {
+    min-height: 5rem;
+    /* Ensure consistent height for descriptions (approx 3 lines) */
+    display: flex;
+    align-items: center;
+    /* Center text vertically if shorter */
+    justify-content: center;
+    margin: 0;
+  }
+
+  .asroc-award-item> :last-child {
+    margin-top: auto;
+    /* Push button to bottom */
   }
 
   /* Force width on desktop if we want exactly 3 columns and they fit */
