@@ -1,8 +1,7 @@
 ---
-title: "ASROC Annual Meetings"
-description: "歷年年會"
+title: "Annual Meetings"
+description: "Annual Meetings"
 showTableOfContents: false
-
 cascade:
   showDate: false
   showAuthor: false
@@ -15,33 +14,32 @@ cascade:
 <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1aNM2PmSlYGiuyS0Pykxket7P6DiPe7f1&ll=23.9843916564581%2C121&z=7"width="600" height="400"></iframe> 
 </div>
 
-| 年份 | 日期 | 地點 | 海報 | 議程 | 團體照 | 相本 |
+| Year | Date | Location | Poster | Program | Group Photo | Album |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2025 | 2025/05/16 ~ 2025/05/18 | 國立虎尾科技大學 | {{< icon "image-regular" >}} | {{< icon "calendar-regular" >}} | {{< icon "camera-solid" >}} | {{< icon "images-regular" >}} |
-| 2024 | 2024/05/31 ~ 2024/06/01 | 國立彰化師範大學 |  |  |  |  |
-| 2023 | 2023/05/19 ~ 2023/05/21 | 國立中山大學 |  |  |  |  |
-| 111 年 | 2022/09/30 ~ 2022/10/02 | 國立中正大學 |  |  |  |  |
-| 110 年 | 2021/05/21 ~ 2021/05/23 | 取消辦理 |  |  |  |  |
-| 109 年 | 2020/09/03 ~ 2020/09/04 | 中央研究院天文及天文物理研究所 |  |  |  |  |
-| 108 年 | 2019/05/17 ~ 2019/05/19 | 國立自然科學博物館 第四演講廳 |  |  |  |  |
-| 107 年 | 2018/05/18 ~ 2018/05/20 | 國立金門大學 楊肅斌演講廳 |  |  |  |  |
-| 106 年 | 2017/05/19 ~ 2017/05/21 | 國立聯合大學(八甲校區) 國際會議廳 |  |  |  |  |
-| 105 年 | 2016/05/13 ~ 2016/05/15 | 國立成功大學(光復校區) 國際會議廳 |  |  |  |  |
-| 104 年 | 2015/05/22 ~ 2015/05/24 | 國立宜蘭大學 行政大樓萬斌廳 |  |  |  |  |
-| 103 年 | 2014/05/23 ~ 2014/05/25 | 國立臺灣大學實驗林管理處 溪頭自然教育園區 |  |  |  |  |
-| 102 年 | 2013/05/24 ~ 2013/05/26 | 國立澎湖科技大學 |  |  |  |  |
-| 101 年 | 2012/05/25 ~ 2012/05/27 | 國立台東大學 |  |  |  |  |
-| 100 年 | 2011/05/27 ~ 2011/05/29 | 高雄國立科學工藝博物館 |  |  |  |  |
-| 99 年 | 2010/05/28 ~ 2010/05/30 | 中央研究院天文及天文物理研究所 |  |  |  |  |
-| 98 年 | 2009/05/22 ~ 2009/05/24 | 國立海洋生物博物館 |  |  |  |  |
-| 97 年 | 2008/05/30 ~ 2008/06/01 | 國立東華大學（前花蓮教育大學） |  |  |  |  |
-| 96 年 | 2007/06/01 ~ 2007/06/03 | 國立成功大學醫學院 |  |  |  |  |
-| 95 年 | 2006/04/28 ~ 2006/04/30 | 國立臺中國立自然科學博物館 |  |  |  |  |
-| 94 年 | 2005/06/03 ~ 2005/06/04 | 國立中央大學太空及遙測研究中心 |  |  |  |  |
-| 93 年 | 2004/04/24 ~ 2004/04/25 | 臺北市立天文科學教育館 |  |  |  |  |
-| 92 年 | 2003/04/18 ~ 2003/04/19 | 國立臺灣大學凝態中心 |  |  |  |  |
-| 91 年 | 2002/04/20 | 國立清華大學物理館 |  |  |  |  |
-| 90 年 | 2001/05/19 | 淡江大學騮先紀念科學館 |  |  |  |  |
-| 89 年 | 2000/06/03 | 國立中央大學科學四館 |  |  |  |  |
-| 88 年 | 1999/04/11 | 臺北市立天文科學教育館 |  |  |  |  |
-
+| 2025 | 2025/05/16 ~ 2025/05/18 | National Formosa University | [{{< icon "image-regular" >}}](/website/uploads/meetings/2025/poster.pdf) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2025/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2025/group_photo.jpeg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/L46pM19UgmTeVXU17) |
+| 2024 | 2024/05/31 ~ 2024/06/01 | National Changhua University of Education | [{{< icon "image-regular" >}}](/website/uploads/meetings/2024/poster.png) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2024/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2024/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/nEXhE8hEhEQPH5fK8) |
+| 2023 | 2023/05/19 ~ 2023/05/21 | National Sun Yat-sen University | [{{< icon "image-regular" >}}](/website/uploads/meetings/2023/poster.png) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2023/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2023/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/VZYWZZMsatVJFgDk7) |
+| 2022 | 2022/09/30 ~ 2022/10/02 | National Chung Cheng University | [{{< icon "image-regular" >}}](/website/uploads/meetings/2022/poster.png) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2022/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2022/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/92YQPdsUqLdiifAH8) |
+| 2021 | 2021/05/21 ~ 2021/05/23 | Cancelled | [{{< icon "image-regular" >}}](/website/uploads/meetings/2021/poster.png) |  |  |  |
+| 2020 | 2020/09/03 ~ 2020/09/04 | Institute of Astronomy and Astrophysics, Academia Sinica (ASIAA) | [{{< icon "image-regular" >}}](/website/uploads/meetings/2020/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2020/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2020/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/zQZrCgoHZYdHh9fU7) |
+| 2019 | 2019/05/17 ~ 2019/05/19 | National Museum of Natural ScienceThe 4th Auditorium | [{{< icon "image-regular" >}}](/website/uploads/meetings/2019/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2019/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2019/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/FJLDwDLkPjd7Sbre8) |
+| 2018 | 2018/05/18 ~ 2018/05/20 | National Quemoy UniversityYeoh Sock Ping Auditorium | [{{< icon "image-regular" >}}](/website/uploads/meetings/2018/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2018/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2018/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/pMRKjjnV9zigCByB3) |
+| 2017 | 2017/05/19 ~ 2017/05/21 | National United University (Bajia Campus)International Conference Hall | [{{< icon "image-regular" >}}](/website/uploads/meetings/2017/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2017/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2017/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/5an7mVCCugJ2WQBz2) |
+| 2016 | 2016/05/13 ~ 2016/05/15 | National Cheng Kung University (NCKU)International Conference Hall | [{{< icon "image-regular" >}}](/website/uploads/meetings/2016/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2016/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2016/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/in8BlqHZ5zGyejwo1) |
+| 2015 | 2015/05/22 ~ 2014/05/24 | National Ilan University | [{{< icon "image-regular" >}}](/website/uploads/meetings/2015/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2015/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2015/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/bQ4pq2hDL79aH6Gr1) |
+| 2014 | 2014/05/23 ~ 2014/05/25 | NTU Experimental Forest | [{{< icon "image-regular" >}}](/website/uploads/meetings/2014/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2014/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2014/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/zl14FynyAvdCCiTl2) |
+| 2013 | 2013/05/24 ~ 2013/05/26 | National Penghu University of Science and Technology | [{{< icon "image-regular" >}}](/website/uploads/meetings/2013/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2013/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2013/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/onjNecmtIRKZSy7p2) |
+| 2012 | 2012/05/25 ~ 2012/05/27 | National Taitung University | [{{< icon "image-regular" >}}](/website/uploads/meetings/2012/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2012/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2012/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/S9VHXuR6Js44B6d32) |
+| 2011 | 2011/05/27 ~ 2011/05/29 | National Science and Technology Museum | [{{< icon "image-regular" >}}](/website/uploads/meetings/2011/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2011/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2011/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/2foH6GyjFXCHNapg1) |
+| 2010 | 2010/05/28 ~ 2010/05/30 | Institute of Astronomy and Astrophysics,Academia Sinica (ASIAA) | [{{< icon "image-regular" >}}](/website/uploads/meetings/2010/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2010/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2010/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/SFo0mYSOsK8uwNsx2) |
+| 2009 | 2009/05/22 ~ 2009/05/24 | National Museum of Marine Biology and Aquarium | [{{< icon "image-regular" >}}](/website/uploads/meetings/2009/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2009/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2009/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/MhsikTliJzaurOIp1) |
+| 2008 | 2008/05/30 ~ 2008/06/01 | National Dong Hwa University Meilun Campus(National Hualien University of Education) | [{{< icon "image-regular" >}}](/website/uploads/meetings/2008/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2008/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2008/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/EjXTiMaMwTYb2ynW2) |
+| 2007 | 2007/06/01 ~ 2007/06/03 | Medicine College,National Cheng Kung University | [{{< icon "image-regular" >}}](/website/uploads/meetings/2007/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2007/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2007/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/zgqqHtGExrbiBAMo2) |
+| 2006 | 2006/04/28 ~ 2006/04/30 | National Museum of Natural Science | [{{< icon "image-regular" >}}](/website/uploads/meetings/2006/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2006/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2006/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/09PdUZCuX115aRSW2) |
+| 2005 | 2005/06/03 ~ 2005/06/04 | Center for Space and Remote Sensing Research,National Central University | [{{< icon "image-regular" >}}](/website/uploads/meetings/2005/poster.jpg) | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2005/program.pdf) |  |  |
+| 2004 | 2004/04/24 ~ 2004/04/25 | Taipei Astronomical Museum |  | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2004/program.pdf) |  |  |
+| 2003 | 2003/04/18 ~ 2003/04/19 | Center for Condensed Matter Sciences,National Taiwan University |  | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2003/program.pdf) | [{{< icon "camera-solid" >}}](/website/uploads/meetings/2003/group_photo.jpg) | [{{< icon "images-regular" >}}](https://photos.app.goo.gl/Crm0e8CGUA6k98Ar1) |
+| 2002 | 2002/04/20 | Physics Department,National Tsing Hua University |  | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2002/program.pdf) |  |  |
+| 2001 | 2001/05/19 | Liu First Memorial Museum,Tamkang University |  | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2001/program.pdf) |  |  |
+| 2000 | 2000/06/03 | Science Building IV Observatory,National Central University |  | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/2000/program.pdf) |  |  |
+| 1999 | 1999/04/11 | Taipei Astronomical Museum |  | [{{< icon "calendar-regular" >}}](/website/uploads/meetings/1999/program.pdf) |  |  |

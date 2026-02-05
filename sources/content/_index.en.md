@@ -46,6 +46,8 @@ The 2025 Scientific Assembly of the Astronomical Society of the Republic of Chin
     description="This is an annual event for all astronomers and astrophysicists in Taiwan to present their most recent discoveries and observations, to report their latest research results, to exchange ideas, and to organize collaborations. Oral presentations and conference posters in all areas of astronomy and astrophysics are solicited. It is also an excellent venue for students, in particular graduate students, to present their research findings or progress from their thesis studies."
 >}}
   
+  {{< slide src="https://asroc-taiwan.github.io/website/img/hp_asroc2025.jpg" caption="ASROC 2025" >}}
+  {{< slide src="https://asroc-taiwan.github.io/website/img/hp_asroc2024.jpg" caption="ASROC 2024" >}}
   {{< slide src="https://asroc-taiwan.github.io/website/img/hp_asroc2023.jpg" caption="ASROC 2023" >}}
   {{< slide src="https://asroc-taiwan.github.io/website/img/hp_asroc2022.jpg" caption="ASROC 2022" >}}
   {{< slide src="https://asroc-taiwan.github.io/website/img/hp_asroc2020.jpg" caption="ASROC 2020" >}}
