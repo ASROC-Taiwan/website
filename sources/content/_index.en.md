@@ -37,32 +37,21 @@ The 2025 Scientific Assembly of the Astronomical Society of the Republic of Chin
 ---
 
 <!--{{< alpine-demo >}}-->
-## ASROC Annual Meeting
-
-This is an annual event for all astronomers and astrophysicists in Taiwan to present their most recent discoveries and observations, to report their latest research results, to exchange ideas, and to organize collaborations. Oral presentations and conference posters in all areas of astronomy and astrophysics are solicited. It is also an excellent venue for students, in particular graduate students, to present their research findings or progress from their thesis studies.
-
-{{< wideimage >}}
-{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2023.jpg" caption="ASROC 2023" >}}
-{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2022.jpg" caption="ASROC 2022" >}}
-{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2020.jpg" caption="ASROC 2020" >}}
-{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2019.jpg" caption="ASROC 2019" >}}
-{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2018.jpg" caption="ASROC 2018" >}}
-{{< /wideimage >}}
 
 
 <!--The description of 天文年會 has moved to layouts/partials/slideshow.html -->
-<!---
 {{< slideshow
     id="asrocCarousel"
-    title="天文年會"
-    description="這是國內天文工作者一年一度發表研究的新發現和工作成果的聚會，也是適合交換研究心得或洽商研究合作的場合。歡迎所有與天文和天文物理研究、天文教育（國小、國中、高中及大專院校）、以及天文推廣工作（如社團、社區大學、天文館、科博館等）相關領域的口頭成果報告或壁報論文。"
+    title="ASROC Annual Meeting"
+    description="This is an annual event for all astronomers and astrophysicists in Taiwan to present their most recent discoveries and observations, to report their latest research results, to exchange ideas, and to organize collaborations. Oral presentations and conference posters in all areas of astronomy and astrophysics are solicited. It is also an excellent venue for students, in particular graduate students, to present their research findings or progress from their thesis studies."
 >}}
   
-  {{< slide src="/img/hp_asroc2023.jpg" caption="2023年天文年會" >}}
-  {{< slide src="/img/hp_asroc2022.jpg" caption="2022年天文年會" >}}
-  {{< slide src="/img/hp_asroc2020.jpg" caption="2020年天文年會" >}}
+  {{< slide src="https://asroc-taiwan.github.io/website/img/hp_asroc2023.jpg" caption="ASROC 2023" >}}
+  {{< slide src="https://asroc-taiwan.github.io/website/img/hp_asroc2022.jpg" caption="ASROC 2022" >}}
+  {{< slide src="https://asroc-taiwan.github.io/website/img/hp_asroc2020.jpg" caption="ASROC 2020" >}}
+  {{< slide src="https://asroc-taiwan.github.io/website/img/hp_asroc2019.jpg" caption="ASROC 2019" >}}
+  {{< slide src="https://asroc-taiwan.github.io/website/img/hp_asroc2018.jpg" caption="ASROC 2018" >}}
 {{< /slideshow >}}
---->
 
 
 
