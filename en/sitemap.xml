@@ -1437,6 +1437,22 @@
   
     
       <url>
+            <loc>https://asroc-taiwan.github.io/website/en/about/constitution/</loc>
+            <xhtml:link
+              rel="alternate"
+              hreflang="zh-hant"
+              href="https://asroc-taiwan.github.io/website/about/constitution/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://asroc-taiwan.github.io/website/en/about/constitution/"
+              />
+          </url>
+    
+  
+    
+      <url>
             <loc>https://asroc-taiwan.github.io/website/en/news/</loc>
             <xhtml:link
               rel="alternate"
@@ -1463,6 +1479,22 @@
               rel="alternate"
               hreflang="en"
               href="https://asroc-taiwan.github.io/website/en/memberships/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://asroc-taiwan.github.io/website/en/about/minutes/</loc>
+            <xhtml:link
+              rel="alternate"
+              hreflang="zh-hant"
+              href="https://asroc-taiwan.github.io/website/about/minutes/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://asroc-taiwan.github.io/website/en/about/minutes/"
               />
           </url>
     
