@@ -37,32 +37,21 @@ The Astronomy Society of the Republic of China (Taiwan)
 ---
 
 <!--{{< alpine-demo >}}-->
-## 天文年會
-
-天文年會是國內天文工作者一年一度發表研究的新發現和工作成果的聚會，也是適合交換研究心得或洽商研究合作的場合。歡迎所有與天文和天文物理研究、天文教育（國小、國中、高中及大專院校）、以及天文推廣工作（如社團、社區大學、天文館、科博館等）相關領域的口頭成果報告或壁報論文。
-
-{{< wideimage >}}
-{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2023.jpg" caption="2023年天文年會" >}}
-{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2022.jpg" caption="2022年天文年會" >}}
-{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2020.jpg" caption="2020年天文年會" >}}
-{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2019.jpg" caption="2019年天文年會" >}}
-{{< wideimg src="https://asroc-taiwan.github.io/website/img/hp_asroc2018.jpg" caption="2018年天文年會" >}}
-{{< /wideimage >}}
 
 
 <!--The description of 天文年會 has moved to layouts/partials/slideshow.html -->
-<!---
 {{< slideshow
     id="asrocCarousel"
     title="天文年會"
     description="這是國內天文工作者一年一度發表研究的新發現和工作成果的聚會，也是適合交換研究心得或洽商研究合作的場合。歡迎所有與天文和天文物理研究、天文教育（國小、國中、高中及大專院校）、以及天文推廣工作（如社團、社區大學、天文館、科博館等）相關領域的口頭成果報告或壁報論文。"
 >}}
   
-  {{< slide src="/img/hp_asroc2023.jpg" caption="2023年天文年會" >}}
-  {{< slide src="/img/hp_asroc2022.jpg" caption="2022年天文年會" >}}
-  {{< slide src="/img/hp_asroc2020.jpg" caption="2020年天文年會" >}}
+  {{< slide src="https://asroc-taiwan.github.io/website/img/hp_asroc2023.jpg" caption="2023年天文年會" >}}
+  {{< slide src="https://asroc-taiwan.github.io/website/img/hp_asroc2022.jpg" caption="2022年天文年會" >}}
+  {{< slide src="https://asroc-taiwan.github.io/website/img/hp_asroc2020.jpg" caption="2020年天文年會" >}}
+  {{< slide src="https://asroc-taiwan.github.io/website/img/hp_asroc2019.jpg" caption="2019年天文年會" >}}
+  {{< slide src="https://asroc-taiwan.github.io/website/img/hp_asroc2018.jpg" caption="2018年天文年會" >}}
 {{< /slideshow >}}
---->
 
 
 
@@ -76,33 +65,30 @@ The Astronomy Society of the Republic of China (Taiwan)
 
 ## 學會獎項
 
-<div class="not-prose flex justify-center">
-<table class="table-auto text-center">
-  <thead>
-    <tr>
-      <th style="width: 33.33%;"><img src="https://asroc-taiwan.github.io/website/img/award_HeavenQuest.png" alt="image" class="w-14 h-14 object-cover rounded-full"></th>
-      <th style="width: 33.33%;"><img src="https://asroc-taiwan.github.io/website/img/award_HeavenTalk.png" alt="image" class="w-14 h-14 object-cover rounded-full"></th>
-      <th style="width: 33.33%;"><img src="https://asroc-taiwan.github.io/website/img/award_BestPoster.png" alt="image" class="w-14 h-14 object-cover rounded-full"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> <div class="text-xl font-bold">天問獎</div></td>
-      <td> <div class="text-xl font-bold">譚天獎</div></td>
-      <td> <div class="text-xl font-bold">最佳壁報論文優良獎</div></td>
-    </tr>
-    <tr>
-      <td>以表彰對天文研究有卓越貢獻者或團體</td>
-      <td>以表彰對天文教育推廣與天文知識普及有卓越貢獻者或團體</td>
-      <td>天文年會期間將舉行壁報論文競賽並設有壁報論文獎</td>
-    </tr>
-    <tr>
-      <td>{{< button href="awards" target="_self" >}}得獎者 >>{{< /button >}}</td>
-      <td>{{< button href="awards" target="_self" >}}得獎者 >>{{< /button >}}</td>
-      <td>{{< button href="awards" target="_self" >}}得獎者 >>{{< /button >}}</td>
-    </tr>
-  </tbody>
-</table>
+<div class="not-prose asroc-awards-container">
+  <!-- Heaven Quest Award -->
+  <div class="asroc-award-item">
+    <img src="https://asroc-taiwan.github.io/website/img/award_HeavenQuest.png" alt="Heaven Quest Award" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+    <div class="text-xl font-bold">天問獎</div>
+    <p>以表彰對天文研究有卓越貢獻者或團體</p>
+    {{< button href="awards" target="_self" >}}得獎者 >>{{< /button >}}
+  </div>
+
+  <!-- Heaven Talk Award -->
+  <div class="asroc-award-item">
+    <img src="https://asroc-taiwan.github.io/website/img/award_HeavenTalk.png" alt="Heaven Talk Award" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+    <div class="text-xl font-bold">譚天獎</div>
+    <p>以表彰對天文教育推廣與天文知識普及有卓越貢獻者或團體</p>
+    {{< button href="awards" target="_self" >}}得獎者 >>{{< /button >}}
+  </div>
+
+  <!-- Best Poster Award -->
+  <div class="asroc-award-item">
+    <img src="https://asroc-taiwan.github.io/website/img/award_BestPoster.png" alt="Best Poster Award" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+    <div class="text-xl font-bold">最佳壁報論文優良獎</div>
+    <p>天文年會期間將舉行壁報論文競賽並設有壁報論文獎</p>
+    {{< button href="awards" target="_self" >}}得獎者 >>{{< /button >}}
+  </div>
 </div>
 
 <!---

@@ -3,19 +3,19 @@
 {{ $description := .Get "description" }}
 
 <div class="container mx-auto px-4 py-8">
-  <div class="flex flex-col md:flex-row gap-6">
-    <!-- Left Column: Title and Description (60%) -->
-    <div class="flex-1 md:w-3/5">
+  <div class="asroc-slideshow-layout">
+    <!-- Left Column: Title and Description (66%) -->
+    <div class="asroc-text-col">
       {{ if $title }}
-        <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">{{ $title }}</h2>
+      <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">{{ $title }}</h2>
       {{ end }}
       {{ if $description }}
-        <p class="text-gray-700 dark:text-gray-300">{{ $description }}</p>
+      <p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">{{ $description }}</p>
       {{ end }}
     </div>
-    <!-- Right Column: Slideshow (40%) -->
-    <div class="flex-1 md:w-2/5 w-full max-w-[400px]">
-      <div id="{{ $id }}" class="relative w-full overflow-hidden rounded-lg">
+    <!-- Right Column: Slideshow (33%) -->
+    <div class="asroc-image-col">
+      <div id="{{ $id }}" class="relative w-full overflow-hidden rounded-lg shadow-lg">
         <div class="slideshow-container">
           {{ .Inner | safeHTML }}
         </div>
@@ -23,7 +23,7 @@
         <div class="dot-container text-center mt-4">
           {{ $slides := findRE "<!-- slide -->.*<!-- /slide -->" .Inner }}
           {{ range $index, $slide := $slides }}
-            <span class="dot" onclick="currentSlide('{{ $id }}', {{ add $index 1 }})"></span>
+          <span class="dot" onclick="currentSlide('{{ $id }}', {{ add $index 1 }})"></span>
           {{ end }}
         </div>
       </div>
@@ -33,15 +33,100 @@
 
 
 
-<!-- Inline CSS for Slideshow -->
+<!-- Inline CSS for Slideshow and Awards -->
 <style>
+  /* Awards Section Styles */
+  .asroc-awards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+
+  .asroc-award-item {
+    flex: 1 1 300px;
+    /* Grow, shrink, base width */
+    max-width: 350px;
+    /* Prevent them from getting too wide on large screens if there are few */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    /* Space between image/text/button */
+    height: 100%;
+    /* Ensure it fills the height of the row */
+  }
+
+  .asroc-award-item p {
+    min-height: 5rem;
+    /* Ensure consistent height for descriptions (approx 3 lines) */
+    display: flex;
+    align-items: center;
+    /* Center text vertically if shorter */
+    justify-content: center;
+    margin: 0;
+  }
+
+  .asroc-award-item> :last-child {
+    margin-top: auto;
+    /* Push button to bottom */
+  }
+
+  /* Force width on desktop if we want exactly 3 columns and they fit */
+  @media (min-width: 769px) {
+    .asroc-award-item {
+      max-width: 30%;
+    }
+  }
+
+  /* Slideshow Styles */
+  .asroc-slideshow-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+
+  .asroc-text-col {
+    flex: 2;
+    min-width: 300px;
+    /* Prevent text from becoming too narrow before wrapping */
+  }
+
+  .asroc-image-col {
+    flex: 1;
+    min-width: 250px;
+    /* Ensure image has decent width */
+  }
+
+  @media (max-width: 600px) {
+    .asroc-slideshow-layout {
+      flex-direction: column;
+    }
+
+    .asroc-text-col,
+    .asroc-image-col {
+      width: 100%;
+      min-width: 0;
+    }
+
+    /* Awards stack on mobile */
+    .asroc-award-item {
+      max-width: 100%;
+      flex-basis: 100%;
+    }
+  }
+
   .slideshow-container {
     position: relative;
     width: 100%;
     max-width: 100%;
     height: 0;
-    padding-bottom: 75%; /* 4:3 aspect ratio */
+    padding-bottom: 75%;
+    /* 4:3 aspect ratio */
   }
+
   .slide {
     display: none;
     position: absolute;
@@ -50,15 +135,18 @@
     width: 100%;
     height: 100%;
   }
+
   .slide.active {
     display: block;
   }
+
   .slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 0.5rem;
   }
+
   .caption {
     text-align: center;
     padding: 0.75rem;
@@ -66,13 +154,16 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.7); /* More opaque for readability */
-    font-size: 0.9rem; /* Smaller for mobile */
+    background: rgba(0, 0, 0, 0.7);
+    /* More opaque for readability */
+    font-size: 0.9rem;
+    /* Smaller for mobile */
   }
-  
+
   .dark .caption {
     color: #d1d5db;
   }
+
   .dot {
     cursor: pointer;
     height: 12px;
@@ -83,7 +174,9 @@
     display: inline-block;
     transition: background-color 0.3s ease;
   }
-  .dot.active, .dot:hover {
+
+  .dot.active,
+  .dot:hover {
     background-color: #717171;
   }
 </style>
@@ -91,6 +184,7 @@
 <!-- Inline JavaScript for Slideshow -->
 <script>
   let slideIndices = {};
+  let slideTimers = {}; // Store timer IDs
 
   function showSlides(slideshowId) {
     let slides = document.querySelectorAll(`#${slideshowId} .slide`);
@@ -111,16 +205,29 @@
 
     // Show current slide and highlight dot
     if (slideIndices[slideshowId] > slides.length) slideIndices[slideshowId] = 1;
+    if (slideIndices[slideshowId] < 1) slideIndices[slideshowId] = slides.length;
+
     slides[slideIndices[slideshowId] - 1].classList.add('active');
     if (dots[slideIndices[slideshowId] - 1]) {
       dots[slideIndices[slideshowId] - 1].classList.add('active');
     }
 
-    slideIndices[slideshowId]++;
-    setTimeout(() => showSlides(slideshowId), 5000); // Change slide every 5 seconds
+    // Clear existing timer if any
+    if (slideTimers[slideshowId]) {
+      clearTimeout(slideTimers[slideshowId]);
+    }
+
+    // Auto advance
+    slideTimers[slideshowId] = setTimeout(() => {
+      slideIndices[slideshowId]++;
+      showSlides(slideshowId);
+    }, 3000); // Change slide every 3 seconds
   }
 
   function currentSlide(slideshowId, n) {
+    if (slideTimers[slideshowId]) {
+      clearTimeout(slideTimers[slideshowId]);
+    }
     slideIndices[slideshowId] = n;
     showSlides(slideshowId);
   }
