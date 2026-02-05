@@ -65,33 +65,30 @@ The Astronomy Society of the Republic of China (Taiwan)
 
 ## 學會獎項
 
-<div class="not-prose flex justify-center">
-<table class="table-auto text-center">
-  <thead>
-    <tr>
-      <th style="width: 33.33%;"><img src="https://asroc-taiwan.github.io/website/img/award_HeavenQuest.png" alt="image" class="w-14 h-14 object-cover rounded-full"></th>
-      <th style="width: 33.33%;"><img src="https://asroc-taiwan.github.io/website/img/award_HeavenTalk.png" alt="image" class="w-14 h-14 object-cover rounded-full"></th>
-      <th style="width: 33.33%;"><img src="https://asroc-taiwan.github.io/website/img/award_BestPoster.png" alt="image" class="w-14 h-14 object-cover rounded-full"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> <div class="text-xl font-bold">天問獎</div></td>
-      <td> <div class="text-xl font-bold">譚天獎</div></td>
-      <td> <div class="text-xl font-bold">最佳壁報論文優良獎</div></td>
-    </tr>
-    <tr>
-      <td>以表彰對天文研究有卓越貢獻者或團體</td>
-      <td>以表彰對天文教育推廣與天文知識普及有卓越貢獻者或團體</td>
-      <td>天文年會期間將舉行壁報論文競賽並設有壁報論文獎</td>
-    </tr>
-    <tr>
-      <td>{{< button href="awards" target="_self" >}}得獎者 >>{{< /button >}}</td>
-      <td>{{< button href="awards" target="_self" >}}得獎者 >>{{< /button >}}</td>
-      <td>{{< button href="awards" target="_self" >}}得獎者 >>{{< /button >}}</td>
-    </tr>
-  </tbody>
-</table>
+<div class="not-prose asroc-awards-container">
+  <!-- Heaven Quest Award -->
+  <div class="asroc-award-item">
+    <img src="https://asroc-taiwan.github.io/website/img/award_HeavenQuest.png" alt="Heaven Quest Award" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+    <div class="text-xl font-bold">天問獎</div>
+    <p>以表彰對天文研究有卓越貢獻者或團體</p>
+    {{< button href="awards" target="_self" >}}得獎者 >>{{< /button >}}
+  </div>
+
+  <!-- Heaven Talk Award -->
+  <div class="asroc-award-item">
+    <img src="https://asroc-taiwan.github.io/website/img/award_HeavenTalk.png" alt="Heaven Talk Award" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+    <div class="text-xl font-bold">譚天獎</div>
+    <p>以表彰對天文教育推廣與天文知識普及有卓越貢獻者或團體</p>
+    {{< button href="awards" target="_self" >}}得獎者 >>{{< /button >}}
+  </div>
+
+  <!-- Best Poster Award -->
+  <div class="asroc-award-item">
+    <img src="https://asroc-taiwan.github.io/website/img/award_BestPoster.png" alt="Best Poster Award" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+    <div class="text-xl font-bold">最佳壁報論文優良獎</div>
+    <p>天文年會期間將舉行壁報論文競賽並設有壁報論文獎</p>
+    {{< button href="awards" target="_self" >}}得獎者 >>{{< /button >}}
+  </div>
 </div>
 
 <!---

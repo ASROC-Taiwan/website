@@ -65,33 +65,30 @@ The 2025 Scientific Assembly of the Astronomical Society of the Republic of Chin
 
 ## Awards
 
-<div class="not-prose flex justify-center">
-<table class="table-auto text-center">
-  <thead>
-    <tr>
-      <th style="width: 33.33%;"><img src="https://asroc-taiwan.github.io/website/img/award_HeavenQuest.png" alt="image" class="w-14 h-14 object-contain rounded-full"></th>
-      <th style="width: 33.33%;"><img src="https://asroc-taiwan.github.io/website/img/award_HeavenTalk.png" alt="image" class="w-14 h-14 object-contain rounded-full"></th>
-      <th style="width: 33.33%;"><img src="https://asroc-taiwan.github.io/website/img/award_BestPoster.png" alt="image" class="w-14 h-14 object-contain rounded-full"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> <div class="text-xl font-bold">Heaven Quest Award</div></td>
-      <td> <div class="text-xl font-bold">Heaven Talk Award</div></td>
-      <td> <div class="text-xl font-bold">Best Poster Awards</div></td>
-    </tr>
-    <tr>
-      <td>For her/his distinguished contribution to astronomical research.</td>
-      <td>For her/his outstanding contribution to astronomy education and popularization of astronomy.</td>
-      <td>A competition for the Best Poster Award among student presentations will be held during the annual meeting.</td>
-    </tr>
-    <tr>
-      <td>{{< button href="awards" target="_self" >}}Awardee >>{{< /button >}}</td>
-      <td>{{< button href="awards" target="_self" >}}Awardee >>{{< /button >}}</td>
-      <td>{{< button href="awards" target="_self" >}}Awardee >>{{< /button >}}</td>
-    </tr>
-  </tbody>
-</table>
+<div class="not-prose asroc-awards-container">
+  <!-- Heaven Quest Award -->
+  <div class="asroc-award-item">
+    <img src="https://asroc-taiwan.github.io/website/img/award_HeavenQuest.png" alt="Heaven Quest Award" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+    <div class="text-xl font-bold">Heaven Quest Award</div>
+    <p>For her/his distinguished contribution to astronomical research.</p>
+    {{< button href="awards" target="_self" >}}Awardee >>{{< /button >}}
+  </div>
+
+  <!-- Heaven Talk Award -->
+  <div class="asroc-award-item">
+    <img src="https://asroc-taiwan.github.io/website/img/award_HeavenTalk.png" alt="Heaven Talk Award" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+    <div class="text-xl font-bold">Heaven Talk Award</div>
+    <p>For her/his outstanding contribution to astronomy education and popularization of astronomy.</p>
+    {{< button href="awards" target="_self" >}}Awardee >>{{< /button >}}
+  </div>
+
+  <!-- Best Poster Award -->
+  <div class="asroc-award-item">
+    <img src="https://asroc-taiwan.github.io/website/img/award_BestPoster.png" alt="Best Poster Awards" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+    <div class="text-xl font-bold">Best Poster Awards</div>
+    <p>A competition for the Best Poster Award among student presentations will be held during the annual meeting.</p>
+    {{< button href="awards" target="_self" >}}Awardee >>{{< /button >}}
+  </div>
 </div>
 
 <!---
