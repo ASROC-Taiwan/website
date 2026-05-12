@@ -4,17 +4,17 @@
   
     
       <url>
-            <loc>https://asroc-taiwan.github.io/website/en/tan/tan-bot/2026_05_08_16_06_00-19e069f83159015b/</loc>
-            <lastmod>2026-05-08T16:06:00+08:00</lastmod>
+            <loc>https://asroc-taiwan.github.io/website/en/tan/tan-bot/2026_05_12_09_24_14-19e19c91d8841c0b/</loc>
+            <lastmod>2026-05-12T09:24:14+08:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="zh-hant"
-              href="https://asroc-taiwan.github.io/website/tan/tan-bot/2026_05_08_16_06_00-19e069f83159015b/"
+              href="https://asroc-taiwan.github.io/website/tan/tan-bot/2026_05_12_09_24_14-19e19c91d8841c0b/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="https://asroc-taiwan.github.io/website/en/tan/tan-bot/2026_05_08_16_06_00-19e069f83159015b/"
+              href="https://asroc-taiwan.github.io/website/en/tan/tan-bot/2026_05_12_09_24_14-19e19c91d8841c0b/"
               />
           </url>
     
@@ -22,7 +22,7 @@
     
       <url>
             <loc>https://asroc-taiwan.github.io/website/en/tan/</loc>
-            <lastmod>2026-05-08T16:06:00+08:00</lastmod>
+            <lastmod>2026-05-12T09:24:14+08:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="zh-hant"
@@ -39,7 +39,7 @@
     
       <url>
             <loc>https://asroc-taiwan.github.io/website/en/</loc>
-            <lastmod>2026-05-08T16:06:00+08:00</lastmod>
+            <lastmod>2026-05-12T09:24:14+08:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="zh-hant"
@@ -49,6 +49,23 @@
               rel="alternate"
               hreflang="en"
               href="https://asroc-taiwan.github.io/website/en/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://asroc-taiwan.github.io/website/en/tan/tan-bot/2026_05_08_16_06_00-19e069f83159015b/</loc>
+            <lastmod>2026-05-08T16:06:00+08:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="zh-hant"
+              href="https://asroc-taiwan.github.io/website/tan/tan-bot/2026_05_08_16_06_00-19e069f83159015b/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://asroc-taiwan.github.io/website/en/tan/tan-bot/2026_05_08_16_06_00-19e069f83159015b/"
               />
           </url>
     
